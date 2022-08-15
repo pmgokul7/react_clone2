@@ -8,6 +8,35 @@ body{
     background-color: #222222;
     user-select: none;
 }
+header{
+    display: flex;
+    position: absolute;
+    top:0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 3;
+    width: 100%;
+    
+
+
+}
+header img{
+    margin-left: 30px;
+}
+.btn{
+    margin-right: 30px;
+    background-color: #f00;
+    height: 25px;
+    width: 85px;
+    display: flex;
+    cursor: pointer ;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px ;
+    padding: 5px 0;
+    font-weight: 400;
+    border-radius: 5px;
+}
 /*  */
 .fa-solid {
     margin-left: 10px;
@@ -19,12 +48,7 @@ body{
 .fa-plus:hover{
     transform: rotate(45deg);
 }
-header {
-width: 98vw;
-position: absolute;
 
-
-}
 .head{
     display: flex;
     justify-content: space-between;
@@ -95,8 +119,10 @@ input{
     border: none;
     outline: none;
     margin-bottom: 100px;
+    padding-left: 10px;
     z-index: 3;
 }
+
 
 .input{
     display: flex;
@@ -333,4 +359,5 @@ footer select{
     background-color: transparent;
     color: #626262;
     outline: none;
+    padding:10px 20px;
 }
